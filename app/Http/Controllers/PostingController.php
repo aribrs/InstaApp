@@ -126,7 +126,7 @@ class PostingController extends Controller
 
         if (!empty($model->img)) {
             $img = ' <div class="form-group border-b border-gray-200 mb-1">
-                       <img src="' . asset('/uploads/' . $model->img) . '" class="m-auto" style="max-width: 700px; max-height: 500px">
+                       <img src="' . asset('/uploads/' . $model->img) . '" class="m-auto" style="max-width: 500px; max-height: 500px">
                     </div>';
         }
 
